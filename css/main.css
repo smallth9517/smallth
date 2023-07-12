@@ -769,13 +769,17 @@ a{
     .m1_btn{
         position: absolute;
         bottom: 50px;
-        left: 0;
-        background-color: aqua;
+        left: 10%;
     }
     .m1_btn button{
         display: block;
         width: 30px;
         height: 30px;
+        border: 0;
+    }
+    .m1_pause{
+        display: block;
+        background-image: url(../img/btn_pause.png);
     }
     /* 메인4 */
     .m4_slick{
