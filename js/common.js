@@ -47,16 +47,14 @@ $('.side_menu .d1 .m1').click(function(){
     }
     return false;
 });
-/*
-//gnb영역 참고
+
+//gnb 열고 닫기
 $('.pc_gnb').mouseover(function(){
-    $(this).stop().animate({
-        height : 245
-    })
-    $('.gnb_bg').stop().slideDown();
+    $(this).find('.d2').stop().slideDown();
+    $('.d2_row').stop().slideDown();
+    return false;
 }).mouseout(function(){
-    $(this).stop().animate({
-        height : 90
-    });
-    $('.gnb_bg').stop().slideUp();
-})*/
+    $(this).find('.d2').stop().slideUp();
+    $('.d2_row').stop().slideUp();
+    return false;
+});
